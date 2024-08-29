@@ -26,8 +26,11 @@ function MyApp({ Component, pageProps }) {
           alt="pet care logo"
         ></img>
       </div>
-      <h1>Adoption shelter</h1>
-      <div className="grid wrapper">
+      <h1>Adopta una mascota</h1>
+      <div className="grid wrapper" style={{
+        'flex-flow': 'column',
+        'align-items': 'center'
+    }} >
         <Component {...pageProps} />
       </div>
     </>
