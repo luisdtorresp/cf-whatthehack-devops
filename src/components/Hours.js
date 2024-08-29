@@ -22,7 +22,7 @@ const Hours = () => {
   
   return (
     <div>
-      <h2>Today's Hours:</h2>
+      <h2>Nuestro Horario:</h2>
       <p>{todayHours}</p>
     </div>
   );
